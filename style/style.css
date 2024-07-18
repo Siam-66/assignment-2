@@ -137,3 +137,33 @@ nav{
     left: 80%;
     transform: translate(-10%, -30%);
 }
+/* main start from here */
+/* habits start from here */
+.habit{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+.habit-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    padding-top: 3rem;
+}
+.hb-img{
+    border: 0.5rem solid #222222;
+    border-radius: 7rem ;
+}
+.hb-text-1{
+    padding-top: 2rem;
+    font-weight: 500;
+}
+.hb-text-2{
+    padding-top: 0.6rem;
+    font-weight: 300;
+    color: #b1b0b0;
+}

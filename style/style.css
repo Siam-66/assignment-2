@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@100..900&display=swap');
+.inter-normal{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+}
+.great-vibes-regular-1 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* colors are here */
+body{
+    background-color:#000000;
+}
+.color-1{
+    color: #E6533C;
+}
+.color-2{
+    color: #FFFFFF; 
+}
+.color-3{
+    color: #b1b0b0;
+}
+.color-4{
+    color: #222222;
+}
+/* button is here */
+.button{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.5rem;
+    border: 1px solid none;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    background-color:#E6533C;
+    cursor: pointer;
+}
+
+/* nav start from here */
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 0 8%;
+    background-color: #131212;
+    -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,1));
+    mask-image: linear-gradient(#000, rgba(0,0,0,1));
+}
+nav{
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-op{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:1.5rem;
+    font-weight: 400;
+    gap: 3rem;
+    padding: 0.3rem;
+    padding-right: 1.7rem;
+    border: 0.1rem solid rgb(39, 38, 38);
+    border-radius: 1.4rem;
+}
+.nav-op:hover p{
+    cursor: pointer;
+}
+/* banner start from here */
+
+.banner-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+
+}
+.button-1{
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+.fly{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.fly-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 6rem;
+
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.fly-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 12rem;
+    height: 6rem;
+    padding-left: 1.4rem;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.fly-hy-1{
+    position: absolute;
+    top: 76%;
+    left: 60%;
+    transform: translate(-25%, -1%);
+}
+.fly-hy-2{
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    transform: translate(-10%, -30%);
+}

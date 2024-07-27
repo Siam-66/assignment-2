@@ -135,6 +135,14 @@ nav{
     left: 70%;
     /* transform: translate(-10%, -30%); */
 }
+.fly-hy-1:hover{
+    transform:scale(1.1);
+    transition: 1s;
+}
+.fly-hy-2:hover{
+    transform:scale(1.1);
+    transition: 1s;
+}
 /* main start from here */
 /* habits start from here */
 .habit{
@@ -165,6 +173,10 @@ nav{
     font-weight: 300;
     color: #b1b0b0;
 }
+.hb-img:hover{
+    transform: rotate(360deg) scale(1.2);
+    transition: 1s;
+}
 /* items are here */
 #item{
     display:flex;
@@ -187,6 +199,11 @@ nav{
     margin: 0 15%;
     height: 50%;
     padding: 0 2rem;
+}
+
+.let-img:hover{
+    transform: scale(1.1);
+    transition: 1s;
 }
 /* calculator is here */
 table , tr , td , th {
@@ -252,8 +269,13 @@ select option {
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
+    cursor: pointer;
 }
 
+.team:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
 .team{
     width: 100%;
     border: 1px solid none;
@@ -293,4 +315,5 @@ select option {
 }
 .foot-1 >p{
     padding-bottom: 1rem;
+    cursor: pointer;
 }

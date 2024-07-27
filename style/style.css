@@ -82,7 +82,9 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
-
+}
+#banner{
+    background: linear-gradient(180deg, rgba(255,255,255,0) ,rgba(255,255,255,0) ) ;
 }
 .button-1{
     display: flex;
@@ -98,9 +100,8 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 12rem;
+    width: 14rem;
     height: 6rem;
-
 
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
@@ -128,14 +129,14 @@ nav{
 .fly-hy-1{
     position: absolute;
     top: 76%;
-    left: 60%;
-    transform: translate(-25%, -1%);
+    left: -20%;
+    /* transform: translate(-25%, -1%); */
 }
 .fly-hy-2{
     position: absolute;
-    top: 35%;
-    left: 80%;
-    transform: translate(-10%, -30%);
+    top: 30%;
+    left: 70%;
+    /* transform: translate(-10%, -30%); */
 }
 /* main start from here */
 /* habits start from here */
@@ -240,3 +241,42 @@ select option {
 }
 
 /* team section start from here */
+.team-main{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem 0;
+    gap: 1rem;
+    background-color: #222222;
+    padding: 1.5rem;
+    border: 1px solid none;
+    border-radius:1.4rem;
+}
+
+.team{
+    width: 20rem;
+    border: 1px solid none;
+    border-radius: 1.3rem;
+    filter: brightness(70%);
+}
+
+.team-name-1 > p {
+    color: #b1b0b0;
+    font-weight: 400;
+}
+.team-name-2 > p {
+    color: #b1b0b0;
+    font-weight: 400;
+}
+.team-name-1{
+    position: absolute;
+    color: #FFFFFF;
+    top: 38%;
+    padding-left: 1.5rem;
+}
+.team-name-2{
+    position: absolute;
+    color: #FFFFFF;
+    top: 85%;
+    padding-left: 1.5rem;
+}

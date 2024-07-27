@@ -49,10 +49,9 @@ header{
     display: flex;
     flex-direction: column;
     padding: 0 8%;
-    background-color: #131212;
-    -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,1));
-    mask-image: linear-gradient(#000, rgba(0,0,0,1));
+    background: linear-gradient(to bottom, #000000 0%, #000000 1%, #222222 50%, #000000 98%, #000000 100%);
 }
+
 nav{
     width: 90%;
     margin: 2rem auto;
@@ -83,9 +82,7 @@ nav{
     align-items: center;
     padding: 0 5%;
 }
-#banner{
-    background: linear-gradient(180deg, rgba(255,255,255,0) ,rgba(255,255,255,0) ) ;
-}
+
 .button-1{
     display: flex;
     gap: 2rem;
@@ -174,7 +171,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50rem;
+    height: 40rem;
     gap:3rem;
 }
 
@@ -188,7 +185,7 @@ nav{
     border-radius: 2rem;
     gap: 15rem;
     margin: 0 15%;
-    height: 40%;
+    height: 50%;
     padding: 0 2rem;
 }
 /* calculator is here */
@@ -251,10 +248,14 @@ select option {
     padding: 1.5rem;
     border: 1px solid none;
     border-radius:1.4rem;
+    width: 65%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
 .team{
-    width: 20rem;
+    width: 100%;
     border: 1px solid none;
     border-radius: 1.3rem;
     filter: brightness(70%);
@@ -271,12 +272,25 @@ select option {
 .team-name-1{
     position: absolute;
     color: #FFFFFF;
-    top: 38%;
+    top: 40%;
     padding-left: 1.5rem;
 }
 .team-name-2{
     position: absolute;
     color: #FFFFFF;
-    top: 85%;
+    top: 89%;
     padding-left: 1.5rem;
+}
+/* footer is here */
+.foo {
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding-bottom:1rem ;
+}
+.foot-1{
+    color: #b1b0b0;
+    font-weight: 400;
+}
+.foot-1 >p{
+    padding-bottom: 1rem;
 }

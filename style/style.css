@@ -167,3 +167,26 @@ nav{
     font-weight: 300;
     color: #b1b0b0;
 }
+/* items are here */
+#item{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60rem;
+    gap:3rem;
+}
+
+.let-go{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #222222;
+    border: 1px solid none;
+    border-radius: 2rem;
+    gap: 15rem;
+    margin: 0 15%;
+    height: 30%;
+    padding: 0 2rem;
+}

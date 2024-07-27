@@ -62,7 +62,7 @@
 <!-- main start from here -->
 <main style="justify-content: center; align-items: center;">
 <!--Habits start from here -->
-<section style="padding: 7rem;">
+<section style="padding-top: 5rem;">
     <div class="habit">
         <div style="text-align: center;" >
             <h1 style="font-size: 3rem;">Change Your Habits</h1>
@@ -117,17 +117,17 @@
 </section>
 <!-- Calculator is here -->
 <section>
-    <div>
-        <h1 style="color: #FFFFFF;">BMI Calculator</h1>
-        <p style="color: #FFFFFF;">Learn more about yor health</p>
+    <div style=" text-align: center; padding: 5rem 0;">
+        <h1 style="color: #FFFFFF; font-size: 3rem;">BMI Calculator</h1>
+        <p style="color: #b1b0b0; font-weight: 400;">Learn more about your health</p>
     </div>
-    <div>
-        <div>
-            <h3 style="color: #FFFFFF;">BMI Calculator Chart</h3>
-                <table style="color: #FFFFFF;">
+    <div class="bmi-0">
+        <div >
+            <h3 style="color: #FFFFFF; font-size: 2rem; padding-bottom: 2.5rem; ">BMI Calculator Chart</h3>
+                <table style="color: #b1b0b0; font-weight: 400; text-align: left; border: 1px solid #b1b0b0; ">
                     <tr>
-                        <th>BMI</th>
-                        <th>Weight Status</th>
+                        <th class="color-2" style="font-weight: 500;" >BMI</th>
+                        <th class="color-2" style="font-weight: 500;">Weight Status</th>
                     </tr>
                     <tr>
                         <td>Below 18.5</td>
@@ -147,8 +147,39 @@
                     </tr>
                 </table>
         </div>
-        <div>
-
+        <div style="justify-content: left;">
+            <div>
+                <h3 style="color: #FFFFFF; font-size: 2rem; padding-bottom: 1rem; ">Calculate your BMI</h3>
+                <p style="color: #b1b0b0; font-weight: 400; padding-bottom: 2.5rem;">provide us the correct value for better accuracy on your BMI.</p>
+            </div>
+            <div class="bmi-cont" >
+                <form>
+                    <div class="bmi">
+                    <input type="text" name="Height/cm" id="bmi-1" placeholder="Height/cm">
+                    <input type="text" name="Weight/kg" id="bmi-1" placeholder="Weight/kg">    
+                    </div>
+                    <div class="bmi">
+                        <input type="text" name="Age" id="bmi-1" placeholder="Age">
+                    <select class="color-3" name="Sex" id="bmi-1" >
+                        <option value="" disabled selected>Sex</option>
+                        <option value=" ">Man</option>
+                        <option value="">Women</option>
+                        <option value="">Others</option>
+                    </select>
+                    </div>
+                    <div class="bmi">
+                    <select class="color-3" name="Select an active factor" id="bmi-2" style="width: 100%;">
+                    <option value="" disabled selected>Select an activity factor</option>
+                    <option value="sedentary">Sedentary</option>
+                    <option value="light">Light activity</option>
+                    <option value="moderate">Moderate activity</option>
+                    <option value="active">Active</option>
+                    <option value="very-active">Very active</option>
+                    </select>
+                    </div>
+                </form>
+            </div>
+            <a style="font-size: 1.2rem;" class="button" href="">Calculate</a>  
         </div>
     </div>
 </section>

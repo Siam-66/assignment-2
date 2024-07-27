@@ -173,7 +173,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60rem;
+    height: 50rem;
     gap:3rem;
 }
 
@@ -181,12 +181,62 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #FFFFFF;
+    color: #ffffff;
     background-color: #222222;
     border: 1px solid none;
     border-radius: 2rem;
     gap: 15rem;
     margin: 0 15%;
-    height: 30%;
+    height: 40%;
     padding: 0 2rem;
 }
+/* calculator is here */
+table , tr , td , th {
+    border: 1px solid #706f6f;
+    border-collapse:collapse;
+    padding: 1rem;
+}
+
+.bmi-0{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    height:22rem;
+    padding: 2rem 22rem;
+}
+.bmi-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmi{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    gap: 1rem;
+
+}
+input, select {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+}
+input::placeholder {
+    color: #bbb;
+}
+
+/* select {
+    appearance: none;
+} */
+
+select option {
+    background-color: #444;
+    color: #fff;
+}
+
+/* team section start from here */

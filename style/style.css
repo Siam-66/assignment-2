@@ -43,6 +43,10 @@ body{
     background-color:#E6533C;
     cursor: pointer;
 }
+.button:hover{
+    background-color: #24a813;
+    color: #FFFFFF;
+}
 
 /* nav start from here */
 header{
@@ -186,8 +190,8 @@ nav{
     color: #b1b0b0;
 }
 .hb-img:hover{
-    transform: rotate(360deg) scale(1.2);
-    transition: 1s;
+    transform: rotate(360deg) scale(1.1);
+    transition: 1.2s;
 }
 /* items are here */
 #item{
@@ -233,13 +237,150 @@ nav{
     transform: scale(1.1);
     transition: 1s;
 }
+.let-img-1{
+    display: none;
+}
+/* training is here */
+.train{
+    padding: 5rem 20rem;
+}
+.exercise{
+    text-align: justify;
+    color: #b1b0b0; 
+    font-weight: 400;
+}
+.push-up2{
+    display: none;
+}
+.train-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.train-cont-0{
+    display: flex;
+}
+.train-item {
+    position: relative;
+    overflow: hidden;
+}
+#item1,
+#item3,
+#item5{
+    width: 25%;
+}
+#item2{
+    width: 50%;
+}
+#item4{
+    width: 45%;
+}
+#item6{
+    width: 30%;
+}
+
+.train-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    filter: brightness(90%);
+    top: -1rem;
+}
+.over-0{
+    position: absolute;
+    top: 12rem;
+    bottom: 0;
+    left: 1rem;
+    right: 0;
+    color: white;
+    padding: 10px;
+    font-weight: 400;
+    text-align: left;
+    font-size: 1rem;
+}
+.over-1{
+    position: absolute;
+    top: 1rem;
+    bottom: 0;
+    left: 1rem;
+    right: 0;
+    color: white;
+    padding:  0.5rem;
+    font-weight: 400;
+    text-align: left;
+    font-size: 1rem;
+}
+.over-2{
+    position: absolute;
+    top: 1rem;
+    bottom: 0;
+    left: 23rem;
+    right: 0;
+    color: white;
+    padding: 10px;
+    font-weight: 400;
+    text-align: left;
+    font-size: 1rem;
+}
+.over-3{
+    position: absolute;
+    top: 13rem;
+    bottom: 0;
+    left: 1rem;
+    right: 0;
+    color: white;
+    padding: 10px;
+    font-weight: 400;
+    text-align: left;
+    font-size: 1rem;
+}
+
+/* Custom colors for each item */
+#item1 .overlay{
+    background: rgba(0, 128, 128, 0.5); 
+}
+
+#item2 .overlay {
+    background: rgba(221, 44, 44, 0.5); 
+}
+/* #item3 .overlay {
+    background: rgba(128, 128, 0, 0.5);
+    
+}
+
+#item4 .overlay {
+    background: rgba(128, 0, 128, 0.5); 
+} */
+
+#item5 .overlay {
+    background: rgba(0, 128, 0, 0.5); 
+    
+}
+
+#item6 .overlay {
+    background: rgba(47, 47, 216, 0.5);
+}
+
 /* calculator is here */
 table , tr , td , th {
     border: 1px solid #706f6f;
     border-collapse:collapse;
     padding: 1rem;
 }
-
+.bmi-top{
+    text-align: center;
+    padding-bottom: 2rem;
+}
 .bmi-0{
     display: flex;
     justify-content: space-between;
@@ -442,7 +583,7 @@ samp{
 .banner-1 p{
     font-size: 1rem;
 }
-
+/* habits */
 .fly-hy-1{
     position: absolute;
     top: 76%;
@@ -467,26 +608,98 @@ samp{
     height: 70rem;
     gap:3rem;
 }
-.let-go{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    gap: 1rem;
-    margin: 0 15%;
-    height: 80%;
-    padding: 1rem 2rem;
+/* itens */
+.let-img{
+    display: none;
 }
-
+.let-img-1{
+    display: block;
+}
+.let-img-1 img{
+    width: 27rem;
+    border: 1px solid none;
+    border-radius: 1rem;
+}
+.let-go,
 .let-go-go{
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    gap: 1rem;
+    gap: 0.4rem;
     margin: 0 15%;
     height: 80%;
     padding: 1rem 2rem;
+    width: 27rem;
+}
+
+/* training  */
+.train{
+    padding: 3rem 2rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.train-cont{
+    padding: 0;
+}
+#item3,
+#item6{
+    display: none;
+}
+.train-item img{
+    width: 100%;
+}
+
+#item1,
+#item2,
+#item4,
+#item5{
+    width: 50%;
+}
+
+.over-0,
+.over-1{
+    position: absolute;
+    top: 8.5rem;
+    bottom: 0;
+    left: 0.2rem;
+    right: 0;
+    color: white;
+    padding: 10px;
+    font-weight: 400;
+    text-align: left;
+    font-size: 0.8rem;
+}
+.over-2,
+.over-3{
+    position: absolute;
+    top: 7.3rem;
+    bottom: 0;
+    left: 0.5rem;
+    right: 0;
+    color: white;
+    padding: 10px;
+    font-weight: 400;
+    text-align: left;
+    font-size: 0.8rem;
+}
+.exercise{
+    text-align: justify;
+    color: #b1b0b0; 
+    font-weight: 400;
+}
+.push-up1{
+    display: none;
+}
+.push-up2{
+    display: block;
+}
+/* bmi calculator */
+.bmi-top{
+    text-align: left;
+    padding: 1rem 2rem 3rem 2rem;
 }
 
 .bmi-0{
@@ -503,6 +716,7 @@ samp{
     width: 85%;
 }
 
+/* trainers */
 .team-main{
     position: relative;
     display: grid;

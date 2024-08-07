@@ -596,7 +596,7 @@ samp{
 }
 .habit-img{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     padding-bottom: 2rem;
 }
 

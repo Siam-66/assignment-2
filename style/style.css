@@ -512,6 +512,30 @@ select option {
     top: 89%;
     padding-left: 1.5rem;
 }
+/* plan */
+
+.plan{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding-bottom: 5rem;
+}
+.plan-0{
+    background-color: #222222;
+    padding: 5rem;
+    border: 1px solid none;
+    border-radius: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+.plan-0 h3{
+    font-size: 3rem;
+}
+.plan-0{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
 /* footer is here */
 
 .foot-0{
@@ -787,6 +811,13 @@ samp{
     font-size: 1.1rem;
     width: 33rem;
     
+}
+
+.plan{
+    display: flex ;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
 }
 
 }
